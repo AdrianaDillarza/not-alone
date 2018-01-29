@@ -22,5 +22,26 @@ body{
 
 .logo {
   margin-left: 36.5%;
-margin-top: 32%;
+  margin-top: 15%;
+}
+
+.fa-user, .fa-search, .fa-pencil {
+  text-align: center;
+  color: #A8314C;
+  margin-top: 15px;
+}
+
+.container-3 {
+  font-family: 'Didact Gothic', sans-serif;
+  color: #848E95;
+}
+
+.card-title {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  color: #002847;
+}
+
+.card-text {
+  text-align: center;
 }

@@ -13,7 +13,21 @@
   var ref = firebase.database().ref().child("text");
   ref.on("value", snap => bigOne.innerText = snap.val());
 
+  // Splash view
+  $(document).ready(function() {
+    setTimeout(function() {
+        $(".container-1").fadeOut(1500);
+    },1000);
+});
 
 
+$(document).ready(function() {
+    setTimeout(function() {
+        $(".container-2").fadeIn(1500);
+    },1000);
+});
 
-
+//Carousel
+$('.carousel').carousel({
+  interval: 2000
+})
