@@ -1,0 +1,26 @@
+body{
+  margin: 0;
+  padding: 0;
+
+}
+
+/*body {
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Questrial', sans-serif;
+  font-family: 'Unica One', cursive;
+  color: white;
+}*/
+
+.backgroundImage {
+  background-image: url("../assets/images/gradient.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 1366px;
+  height: 768px;
+}
+
+.logo {
+  margin-left: 36.5%;
+margin-top: 32%;
+}
